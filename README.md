@@ -27,3 +27,8 @@ http://localhost:3000/guardian/search?section=politics/politics
  
 http://localhost:3000/guardian/search?section=politics/politics&query=piers
 
+Steps:
+* Clone repository
+* goto Project folder
+* execute bundle install command
+* goto browser and run above example url for getting result from api.
