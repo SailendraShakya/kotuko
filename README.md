@@ -1,24 +1,29 @@
 # README
+Rails project was build in rails 7.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I have used following gems for the project.
+* rest-client
 
-Things you may want to cover:
+ 
+gem "rest-client"
+ 
+Set default url as 
+guardian/index
+Which i tried to submitted form for search
+ 
+Search tags and query using below url
+guardian/search
+ 
+http://localhost:3000/guardian/search
+ 
+By default it will search for 
+section = 'politics/politics'
+   query = 'debate'
+ 
+We can pass query and section from url to get result for example
+http://localhost:3000/guardian/search?query=debate
+ 
+http://localhost:3000/guardian/search?section=politics/politics
+ 
+http://localhost:3000/guardian/search?section=politics/politics&query=piers
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
